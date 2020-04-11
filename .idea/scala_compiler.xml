@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="incrementalityType" value="SBT" />
-    <profile name="sbt 1" modules="csye7200spring2020project" />
-    <profile name="sbt 2" modules="Bitcoin Analysis &amp; Prediction,CSYE7200Spring2020Project-master">
+    <profile name="sbt 1" modules="csye7200spring2020project_377" />
+    <profile name="sbt 2" modules="CSYE7200Spring2020Project-master">
       <parameters>
         <parameter value="-Ypartial-unification" />
       </parameters>

@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="sbt: org.apache.spark:spark-sql_2.11:2.3.1:tests:jar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.3.1/spark-sql_2.11-2.3.1-tests.jar!/" />
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.3.1/spark-sql_2.11-2.3.1-tests.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

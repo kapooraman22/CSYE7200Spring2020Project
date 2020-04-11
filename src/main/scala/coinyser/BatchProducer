@@ -1,12 +1,10 @@
 package coinyser
 
-
 import org.apache.spark.sql.functions.{explode, from_json}
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.{Dataset, SparkSession}
 
 object BatchProducer {
-
   def jsonToHttpTransactions(json: String)(implicit spark:
   SparkSession): Dataset[HttpTransaction] = {
     import spark.implicits._
