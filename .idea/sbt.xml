@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/project" />
-            <option value="C:/tmp/sbt/bitcoin-analyser/scala-2.11" />
+            <option value="D:/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11" />
           </set>
         </option>
         <option name="sbtVersion" value="1.3.9" />

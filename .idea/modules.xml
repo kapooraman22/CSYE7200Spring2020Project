@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bitcoin Analysis &amp; Prediction.iml" filepath="$PROJECT_DIR$/.idea/modules/Bitcoin Analysis &amp; Prediction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bitcoin Analysis &amp; Prediction-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Bitcoin Analysis &amp; Prediction-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/shared-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CSYE7200Spring2020Project-master.iml" filepath="$PROJECT_DIR$/.idea/modules/CSYE7200Spring2020Project-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CSYE7200Spring2020Project-master-build.iml" filepath="$PROJECT_DIR$/.idea/modules/CSYE7200Spring2020Project-master-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-2.11.shared-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-2.11.shared-sources.iml" />
     </modules>
   </component>
 </project>
