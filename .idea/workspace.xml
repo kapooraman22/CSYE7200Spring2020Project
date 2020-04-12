@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa19e484-0857-42a0-8498-861d2ab90ac7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/scala/BatchProducerSpec" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/coinyser/BatchProducerSpec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/coinyser/BatchProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/coinyser/HttpTransaction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/coinyser/BatchProducerSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/coinyser/BatchProducer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/coinyser/HttpTransaction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/coinyser/BatchProducerSpec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1aP64wkLXTDqI7gF19yX9aMv1m0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,7 +50,27 @@
       <recent name="$PROJECT_DIR$/src/test/scala/coinyser" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.ScalaTests in 'coinyser'">
+  <component name="RunManager" selected="ScalaTest.ScalaTests in 'scala'">
+    <configuration name="BatchProducerSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="CSYE7200Spring2020Project-master" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="coinyser.BatchProducerSpec" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScalaTests in 'coinyser'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="CSYE7200Spring2020Project-master" />
       <option name="allowRunningInParallel" value="false" />
@@ -70,7 +99,10 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="testKind" value="Class" />
       <option name="classBuf">
-        <list />
+        <list>
+          <option value="coinyser.BatchProducerSpec" />
+          <option value="coinyser.BatchProducerSpec" />
+        </list>
       </option>
       <option name="envs">
         <map />
@@ -90,8 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.ScalaTests in 'coinyser'" />
         <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
+        <item itemvalue="ScalaTest.BatchProducerSpec" />
+        <item itemvalue="ScalaTest.ScalaTests in 'coinyser'" />
         <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
       </list>
     </recent_temporary>

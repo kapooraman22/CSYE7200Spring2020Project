@@ -1,5 +1,11 @@
 package coinyser
 
+import java.io.{BufferedOutputStream, StringReader}
+import java.nio.CharBuffer
+import java.sql.Timestamp
+
+import cats.effect.IO
+import org.apache.spark.sql.Dataset
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.test.SharedSparkSession
 import org.scalatest.{Matchers, WordSpec}
