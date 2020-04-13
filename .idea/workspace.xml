@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa19e484-0857-42a0-8498-861d2ab90ac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/coinyser/BatchProducer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/coinyser/HttpTransaction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/coinyser/BatchProducerSpec.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/coinyser/Transaction.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/coinyser/BatchProducer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/coinyser/HttpTransaction" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/coinyser/BatchProducerSpec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/coinyser/Transaction" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +71,6 @@
       <module name="CSYE7200Spring2020Project-master" />
       <option name="allowRunningInParallel" value="false" />
       <option name="testKind" value="Class" />
-      <option name="classBuf">
-        <list />
-      </option>
       <option name="envs">
         <map />
       </option>
@@ -86,7 +79,7 @@
       <option name="searchTest" value="Across module dependencies" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testPackagePath" value="coinyser" />
+      <option name="testClassPath" value="" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -122,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
         <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
         <item itemvalue="ScalaTest.BatchProducerSpec" />
         <item itemvalue="ScalaTest.ScalaTests in 'coinyser'" />
@@ -160,6 +154,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3173248122404" />
         <entry key="$PROJECT_DIR$/build.sbt" value="679275255" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1026143456" />
       </map>
@@ -188,6 +183,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="449" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1586648243208" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586745055047">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586745055047" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586745055045">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586745055045" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586745055044">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586745055044" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586745055046">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586745055046" />
     <state x="229" y="23" width="1024" height="821" key="SettingsEditor" timestamp="1586648593011">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
