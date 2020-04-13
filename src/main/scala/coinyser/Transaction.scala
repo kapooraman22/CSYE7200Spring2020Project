@@ -10,7 +10,6 @@ case class Transaction(timestamp: Timestamp,
                        sell: Boolean,
                        amount: Double)
 
-
 object Transaction {
   def apply(timestamp: Timestamp,
             tid: Int,
