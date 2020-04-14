@@ -59,7 +59,6 @@ object BatchProducer {
     } yield (nextTransactions, saveEnd, end)
   }
 
-
   def currentInstant(implicit timer: Timer[IO]): IO[Instant] =
     timer.clockRealTime(TimeUnit.SECONDS) map Instant.ofEpochSecond
 
@@ -95,9 +94,6 @@ object BatchProducer {
   def readTransactions(jsonTxs: IO[String])(implicit spark: SparkSession): IO[Dataset[Transaction]] = {
     jsonTxs.map(json => httpToDomainTransactions(jsonToHttpTransactions(json)))
   }
-
-
-
 
   def filterTxs(transactions: Dataset[Transaction], fromInstant: Instant, untilInstant: Instant)
   : Dataset[Transaction] = {
