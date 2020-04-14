@@ -1,5 +1,6 @@
 package coinyser
 
+import java.sql.Timestamp
 import java.text.SimpleDateFormat
 import java.util.TimeZone
 
@@ -35,7 +36,13 @@ object StreamingProducer extends StrictLogging {
     m.setDateFormat(sdf)
   }
 
+  def deserializeWebsocketTransaction(s: String): WebsocketTransaction =
+    mapper.readValue(s, classOf[WebsocketTransaction])
 
+  def convertWsTransaction(wsTx: WebsocketTransaction): Transaction =
+    Transaction(
+      timestamp = new Timestamp(wsTx.timestamp.toLong * 1000), tid = wsTx.id,
+      price = wsTx.price, sell = wsTx.`type` == 1, amount = wsTx.amount)
 
   def serializeTransaction(tx: Transaction): String =
     mapper.writeValueAsString(tx)
