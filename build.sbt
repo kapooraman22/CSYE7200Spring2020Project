@@ -1,3 +1,4 @@
+
 name := "CSYE7200Spring2020Project-master"
 
 version := "0.1"
@@ -24,3 +25,7 @@ scalacOptions += "-Ypartial-unification"
 
 // Avoids SI-3623
 target := file("/tmp/sbt/CSYE7200Spring2020Project-master")
+
+assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false)
+test in assembly := {}
+mainClass in assembly := Some("coinyser.BatchProducerAppSpark")
