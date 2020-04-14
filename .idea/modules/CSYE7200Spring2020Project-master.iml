@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="csye7200spring2020project [file:/Users/harry/IdeaProjects/CSYE7200Spring2020Project/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="csye7200spring2020project-master [file:/D:/NEU/NEU/Sem%204/Scala/CSYE7200Spring2020Project-master/CSYE7200Spring2020Project-master/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file:///private/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/classes" />
-    <output-test url="file:///private/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/test-classes" />
+    <output url="file://D:/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/classes" />
+    <output-test url="file://D:/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/test-classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../..">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" />
@@ -10,7 +10,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="shared-sources" exported="" />
     <orderEntry type="module-library">
       <library name="sbt: unmanaged-sources-and-docs">
         <CLASSES />
@@ -18,14 +17,21 @@
           <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-core/1.4.4/orc-core-1.4.4-javadoc.jar!/" />
           <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-mapreduce/1.4.4/orc-mapreduce-1.4.4-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-core/1.4.4/orc-core-1.4.4-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-mapreduce/1.4.4/orc-mapreduce-1.4.4-javadoc.jar!/" />
         </JAVADOC>
         <SOURCES>
           <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-sources.jar!/" />
           <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-core/1.4.4/orc-core-1.4.4-sources.jar!/" />
           <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-mapreduce/1.4.4/orc-mapreduce-1.4.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-sources.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-core/1.4.4/orc-core-1.4.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-mapreduce/1.4.4/orc-mapreduce-1.4.4-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="scala-2.11.shared-sources" exported="" />
     <orderEntry type="library" scope="PROVIDED" name="sbt: xmlenc:xmlenc:0.52:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="sbt: xml-apis:xml-apis:1.3.04:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="sbt: xerces:xercesImpl:2.9.1:jar" level="project" />
