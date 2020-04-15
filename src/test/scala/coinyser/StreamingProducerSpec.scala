@@ -56,8 +56,6 @@ object StreamingProducerSpec {
     price = 6339.73, sell = false, amount = 0.04531827)
 
   val SampleJsonTransaction =
-    """{"timestamp":"2018-08-09 06:49:55",
-      |"date":"2018-08-09","tid":71826763,"price":6339.73,"sell":false,
-      |"amount":0.04531827}""".stripMargin
+    """{"timestamp":"2018-08-09 06:49:55","date":"2018-08-09","tid":71826763,"price":6339.73,"sell":false,"amount":0.04531827}""".stripMargin
 
 }
