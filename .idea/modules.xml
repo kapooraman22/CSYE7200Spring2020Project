@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CSYE7200Spring2020Project-master.iml" filepath="$PROJECT_DIR$/.idea/modules/CSYE7200Spring2020Project-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CSYE7200Spring2020Project-master-build.iml" filepath="$PROJECT_DIR$/.idea/modules/CSYE7200Spring2020Project-master-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-2.11.shared-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-2.11.shared-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/shared-sources.iml" />
     </modules>
   </component>
 </project>
