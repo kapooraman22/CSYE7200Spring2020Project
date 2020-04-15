@@ -7,7 +7,7 @@ val z = new {
   def show[A](ds: Dataset[A]): Unit = ds.show(false)
 }
 
-val transactions = spark.read.parquet(  "/home/varsh/CSYE7200Spring2020Project-master/CSYE7200Spring2020Project-master/data/transactions")
+val transactions = spark.read.parquet(  "D:\\NEU\\NEU\\Sem 4\\Scala\\CSYE7200Spring2020Project-master\\CSYE7200Spring2020Project-master\\data\\transactions")
 z.show(transactions.sort($"timestamp"))
 
 val group = transactions.groupBy(window($"timestamp", "20 minutes"))
