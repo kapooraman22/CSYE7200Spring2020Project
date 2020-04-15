@@ -265,5 +265,35 @@ object Predict_Price extends App
             return calendar.getTime
         }
 
-        
+        def insert_into_db() = {
+            val response = Source.fromFile(responseFileName)
+            val parsedJson = mapper.readValue[Map[String, Object]](response.reader())
+            val prices = parsedJson("data").asInstanceOf[scala.collection.immutable.Map[String, Object]]
+            val pricelist = prices("prices").asInstanceOf[scala.collection.immutable.List[String]]
+            println("Inserting bitcoin prices into databse")
+            try
+            {
+                Class.forName(driver)
+                connection = DriverManager.getConnection(url, username, password)
+                val statement = connection.createStatement
+                val tr = statement.executeUpdate("truncate mydatabase.bitcoin_price")
+                for (i <- 0 to 364)
+                {
+                    val item = pricelist(i).asInstanceOf[scala.collection.immutable.Map[String, Object]]
+                    realdate = item("time").toString
+                    date = dateFormat.parse(realdate)
+                    mytime.setTime(date)
+                    val time = item("time").toString.slice(0,item("time").toString.length - 1)
+                    val price = item("price").toString
+                    val rs = statement.addBatch(s"insert into bitcoin_price (time, price) values ('$time', $price)")
+                }
+                statement.executeBatch()
+            }
+            catch
+            {
+                case e: Exception => e.printStackTrace
+            }
+            connection.close
+            println("Insertion successful")
+        }
 }
