@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="shared-sources" external.linked.project.path="/private/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="SHARED_SOURCES_MODULE" version="4">
+<module external.linked.project.id="shared-sources" external.linked.project.path="D:/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="SHARED_SOURCES_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output url="file:///private/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/target/classes" />
-    <output-test url="file:///private/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/target/test-classes" />
+    <output url="file://D:/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/target/classes" />
+    <output-test url="file://D:/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/target/test-classes" />
     <exclude-output />
-    <content url="file:///private/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11">
-      <excludeFolder url="file:///private/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/target" />
+    <content url="file://D:/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11">
+      <excludeFolder url="file://D:/tmp/sbt/CSYE7200Spring2020Project-master/scala-2.11/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
