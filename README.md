@@ -11,7 +11,6 @@ Further we will also use live trading data using streaming from WebSocket API (h
 Then, we will use Apache Zeppelin to query and analyze the data interactively.
 
 ### Tools & Technologies used in the project
-
 <br>Scala</br>
 <br>Apache Spark</br>
 <br>Parquet format</br>
@@ -20,9 +19,22 @@ Then, we will use Apache Zeppelin to query and analyze the data interactively.
 <br>Zeppelin</br>
 <br>SparkML</br>
 
+### How to run the application
+<br><b>Running the Batch Producer</b></br>
+This will write the last day of transactions from midnight to the data directory, then write new transactions every hour.
 
+Go to the project root directory in command prompt and run below commands:
 
+sbt 
+<br>test:runMain coinyser.BatchProducerAppIntelliJ</br>
 
+<br><b>Running the Streaming Producer</b></br>
+This will send live transactions to a kafka topic "transactions".
+
+Go to the project root directory in command prompt and run below commands:
+
+sbt 
+<br>test:runMain coinyser.StreamingProducerApp</br>
 
 ## License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
